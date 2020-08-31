@@ -38,6 +38,7 @@ import com.yalantis.ucrop.model.AspectRatio;
 import com.yalantis.ucrop.view.CropImageView;
 import com.yalantis.ucrop.view.UCropView;
 
+
 import java.io.File;
 
 public class GalleryActivity extends AppCompatActivity {

@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnToCamera, btnToUpload;
     private ImageView background;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         btnToUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+                Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
                 startActivityForResult(intent, GET_IMAGE);
             }
