@@ -38,10 +38,6 @@ import com.yalantis.ucrop.model.AspectRatio;
 import com.yalantis.ucrop.view.CropImageView;
 import com.yalantis.ucrop.view.UCropView;
 
-
-import org.opencv.core.Mat;
-import org.opencv.imgcodecs.Imgcodecs;
-
 import java.io.File;
 
 public class GalleryActivity extends AppCompatActivity {

@@ -11,7 +11,6 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.opencv.android.OpenCVLoader;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnToCamera, btnToUpload;
     private ImageView background;
 
-    static {
-        OpenCVLoader.initDebug();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
